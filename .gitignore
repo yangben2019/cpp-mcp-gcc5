@@ -1,0 +1,29 @@
+# 编译产物 / Build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# 构建目录 / Build directories
+build/
+cmake-build-*/
+out/
+Debug/
+Release/
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.pro.user
+Makefile
+
+# 操作系统 / OS
+.DS_Store
+Thumbs.db
+desktop.ini
